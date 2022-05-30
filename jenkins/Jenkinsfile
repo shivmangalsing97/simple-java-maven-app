@@ -19,7 +19,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 bat 'cd jenkins/scripts'
-                bat 'deliver.sh'
+                bat 'deliver.bat'
             }
         }
     }
